@@ -1,0 +1,276 @@
+2020-09-02 10:12:11,437 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:12:11,963 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:12:11,963 root INFO userconter_maner:21 init member api
+2020-09-02 10:12:11,978 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:12:12,258 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:12:12,261 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDQ3MzIsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.0xFkjLPOB_rDACUPWEcuB39c-ni1R6_fcmsZvgDrcrA', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:12:12,263 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:12:12,412 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:12:12,415 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDQ3MzIsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.0xFkjLPOB_rDACUPWEcuB39c-ni1R6_fcmsZvgDrcrA', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:12:12,416 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:12:12,445 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/get/listPage HTTP/1.1" 405 150
+2020-09-02 10:12:12,564 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:18:35,925 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:18:36,481 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:18:36,481 root INFO userconter_maner:21 init member api
+2020-09-02 10:18:36,511 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:18:39,671 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:18:39,674 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUxMTksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.QwaEIBte0K5NwrYSbXtUQ7pPTiyIgSL4NN128oUTmJM', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:18:39,676 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:18:39,810 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:18:39,812 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUxMTksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.QwaEIBte0K5NwrYSbXtUQ7pPTiyIgSL4NN128oUTmJM', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:18:39,812 root INFO baseapis_ke:47 tokeneyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUxMTksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.QwaEIBte0K5NwrYSbXtUQ7pPTiyIgSL4NN128oUTmJM
+2020-09-02 10:18:39,814 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:18:39,838 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/get/listPage HTTP/1.1" 405 150
+2020-09-02 10:18:39,916 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:19:48,129 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:19:48,662 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:19:48,662 root INFO userconter_maner:21 init member api
+2020-09-02 10:19:48,671 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:19:48,864 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:19:48,867 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUxODgsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.cEF_OHS57v_pmLOUkcZKE9NfLKJnF3rX14l_puLxOh0', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:19:48,869 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:19:48,989 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:19:48,992 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUxODksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.UYXWyQCjgdFvV4dAmpWGVBO-iXb_deWbxLKYKJnhcn4', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:19:48,992 root INFO baseapis_ke:47 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUxODksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.UYXWyQCjgdFvV4dAmpWGVBO-iXb_deWbxLKYKJnhcn4
+2020-09-02 10:19:48,994 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:19:49,020 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/get/listPage HTTP/1.1" 405 150
+2020-09-02 10:19:49,023 root INFO baseapis_ke:49 返回值<Response [405]>
+2020-09-02 10:19:49,090 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:22:33,901 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:22:34,464 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:22:34,464 root INFO userconter_maner:21 init member api
+2020-09-02 10:22:34,476 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:22:34,657 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:22:34,660 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUzNTQsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.MidVMoEwB_MBDgVZfPE8vQ2cyySXYM4yU80L3hwFSp8', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:22:34,661 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:22:34,802 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:22:34,805 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUzNTQsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.MidVMoEwB_MBDgVZfPE8vQ2cyySXYM4yU80L3hwFSp8', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:22:34,805 root INFO baseapis_ke:48 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUzNTQsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.MidVMoEwB_MBDgVZfPE8vQ2cyySXYM4yU80L3hwFSp8
+2020-09-02 10:22:34,807 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:22:34,909 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:22:34,912 root INFO baseapis_ke:50 返回值<Response [200]>
+2020-09-02 10:22:34,986 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:22:56,738 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:22:57,241 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:22:57,241 root INFO userconter_maner:21 init member api
+2020-09-02 10:22:57,249 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:22:57,434 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:22:57,437 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUzNzcsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.xRxIo8jjaBO_K1TqoR_RY38FpVEVP5icInxofESTrXs', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:22:57,439 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:22:57,570 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:22:57,573 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUzNzcsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.xRxIo8jjaBO_K1TqoR_RY38FpVEVP5icInxofESTrXs', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:22:57,573 root INFO baseapis_ke:48 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDUzNzcsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.xRxIo8jjaBO_K1TqoR_RY38FpVEVP5icInxofESTrXs
+2020-09-02 10:22:57,575 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:22:57,754 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:22:57,757 root INFO baseapis_ke:50 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:22:57,823 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:24:19,626 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:24:20,127 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:24:20,127 root INFO userconter_maner:21 init member api
+2020-09-02 10:24:20,136 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:24:20,263 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:24:20,267 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDU0NjAsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.GGXlIbW_a-NOOqC1SvwmthOi2PjzDHdHY6G2-ZuuuYc', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:24:20,268 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:24:20,374 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:24:20,376 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDU0NjAsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.GGXlIbW_a-NOOqC1SvwmthOi2PjzDHdHY6G2-ZuuuYc', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:24:20,377 root INFO baseapis_ke:47 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDU0NjAsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.GGXlIbW_a-NOOqC1SvwmthOi2PjzDHdHY6G2-ZuuuYc
+2020-09-02 10:24:20,379 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:24:20,489 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:24:20,492 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:24:20,562 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:26:05,103 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:26:05,559 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:26:05,560 root INFO userconter_maner:21 init member api
+2020-09-02 10:26:05,560 root INFO userconter_maner:71 /course/courseCollection/get/listPage我爱你
+2020-09-02 10:26:05,567 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:26:05,814 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:26:05,816 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDU1NjUsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.EYbtKXpduHcAYtamiF3cc44cPLLn_jup-Y-mZK-0e7c', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:26:05,818 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:26:05,904 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:26:05,907 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDU1NjUsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.EYbtKXpduHcAYtamiF3cc44cPLLn_jup-Y-mZK-0e7c', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:26:05,907 root INFO baseapis_ke:47 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDU1NjUsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.EYbtKXpduHcAYtamiF3cc44cPLLn_jup-Y-mZK-0e7c
+2020-09-02 10:26:05,909 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:26:06,057 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:26:06,059 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:26:06,126 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:33:43,001 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:33:43,556 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:33:43,556 root INFO userconter_maner:21 init member api
+2020-09-02 10:33:43,556 root INFO userconter_maner:71 /course/courseCollection/get/listPage我爱你
+2020-09-02 10:33:43,568 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:33:46,727 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:33:46,730 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYwMjYsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.V0k5LNZAxHd-SL_7yXBIZXoUYtGL1SlJEJU57he7tvw', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:33:46,732 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:33:46,840 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:33:46,843 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYwMjYsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.V0k5LNZAxHd-SL_7yXBIZXoUYtGL1SlJEJU57he7tvw', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:33:46,843 root INFO baseapis_ke:47 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYwMjYsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.V0k5LNZAxHd-SL_7yXBIZXoUYtGL1SlJEJU57he7tvw
+2020-09-02 10:33:46,845 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:33:46,976 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:33:46,979 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:33:47,052 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:34:58,178 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:34:58,696 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:34:58,696 root INFO userconter_maner:21 init member api
+2020-09-02 10:34:58,697 root INFO userconter_maner:71 /course/courseCollection/get/listPage我爱你
+2020-09-02 10:34:58,706 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:34:58,870 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:34:58,874 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYwOTgsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.e8yAMRbsRDZt6hOAzXAnJhCrh8d8LXi3H9uc35FIhx8', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:34:58,875 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:34:58,965 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:34:58,968 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYwOTgsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.e8yAMRbsRDZt6hOAzXAnJhCrh8d8LXi3H9uc35FIhx8', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:34:58,968 root INFO baseapis_ke:47 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYwOTgsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.e8yAMRbsRDZt6hOAzXAnJhCrh8d8LXi3H9uc35FIhx8
+2020-09-02 10:34:58,970 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:34:59,002 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/get/listPage HTTP/1.1" 405 150
+2020-09-02 10:34:59,125 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:35:48,473 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:35:48,944 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:35:48,944 root INFO userconter_maner:21 init member api
+2020-09-02 10:35:48,944 root INFO userconter_maner:71 /course/courseCollection/get/listPage我爱你
+2020-09-02 10:35:48,953 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:35:49,109 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:35:49,112 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYxNDksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.0lhnh1WB4Ng2BDfhQEuXf_DldlGOUKcv2pkE2tN18XU', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:35:49,114 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:35:49,206 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:35:49,210 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYxNDksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.0lhnh1WB4Ng2BDfhQEuXf_DldlGOUKcv2pkE2tN18XU', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:35:49,210 root INFO baseapis_ke:47 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYxNDksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.0lhnh1WB4Ng2BDfhQEuXf_DldlGOUKcv2pkE2tN18XU
+2020-09-02 10:35:49,212 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:35:49,237 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/get/listPage HTTP/1.1" 405 150
+2020-09-02 10:35:49,360 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:36:19,393 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:36:19,929 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:36:19,929 root INFO userconter_maner:21 init member api
+2020-09-02 10:36:19,929 root INFO userconter_maner:71 /course/courseCollection/get/listPage我爱你
+2020-09-02 10:36:19,938 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:36:20,089 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:36:20,091 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYxODAsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.YnTtKdQPrfEKlTsiVA63SgHc97NmW7r5vxjv36-XTMM', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:36:20,091 root INFO baseapis_ke:47 uuuuuurlhttps://yuyouyou.bjjh.org.cn/course/courseCollection/get/listPage
+2020-09-02 10:36:20,093 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:36:20,284 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:36:20,288 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYxODAsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.YnTtKdQPrfEKlTsiVA63SgHc97NmW7r5vxjv36-XTMM', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:36:20,288 root INFO baseapis_ke:48 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYxODAsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.YnTtKdQPrfEKlTsiVA63SgHc97NmW7r5vxjv36-XTMM
+2020-09-02 10:36:20,290 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:36:20,334 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/get/listPage HTTP/1.1" 405 150
+2020-09-02 10:36:20,465 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:39:56,064 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:39:56,627 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:39:56,628 root INFO userconter_maner:21 init member api
+2020-09-02 10:39:56,628 root INFO userconter_maner:71 /yx/course/courseCollection/collection我爱你
+2020-09-02 10:39:56,643 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:39:56,829 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:39:56,832 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYzOTYsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.Xs70gyLzo4RE6wfP4V6TQJiQVLbfDTvEBSGlB3vHotI', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:39:56,832 root INFO baseapis_ke:47 uuuuuurlhttps://yuyouyou.bjjh.org.cn/yx/course/courseCollection/collection
+2020-09-02 10:39:56,837 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:39:56,957 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:39:56,959 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYzOTYsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.Xs70gyLzo4RE6wfP4V6TQJiQVLbfDTvEBSGlB3vHotI', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:39:56,960 root INFO baseapis_ke:48 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDYzOTYsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.Xs70gyLzo4RE6wfP4V6TQJiQVLbfDTvEBSGlB3vHotI
+2020-09-02 10:39:56,965 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:39:57,074 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:39:57,077 root INFO baseapis_ke:50 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:39:57,149 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:40:58,537 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:40:59,023 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:40:59,023 root INFO userconter_maner:21 init member api
+2020-09-02 10:40:59,023 root INFO userconter_maner:71 /yx/course/courseCollection/collection我爱你
+2020-09-02 10:40:59,033 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:40:59,191 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:40:59,195 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDY0NTksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.Tt3IjIL0rfIFlIbd-ReUrLUUW_wCToc4bAg1xT7fb-M', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:40:59,195 root INFO baseapis_ke:47 uuuuuurlhttps://yuyouyou.bjjh.org.cn/yx/course/courseCollection/collection
+2020-09-02 10:40:59,197 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:40:59,419 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:40:59,422 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDY0NTksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.Tt3IjIL0rfIFlIbd-ReUrLUUW_wCToc4bAg1xT7fb-M', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:40:59,422 root INFO baseapis_ke:48 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDY0NTksInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.Tt3IjIL0rfIFlIbd-ReUrLUUW_wCToc4bAg1xT7fb-M
+2020-09-02 10:40:59,424 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:40:59,527 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:40:59,530 root INFO baseapis_ke:50 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:40:59,530 root DEBUG baseapis_ke:58 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:40:59,530 root INFO test_read2:20 {'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:40:59,532 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:41:06,480 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:41:06,792 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:41:06,792 root INFO userconter_maner:21 init member api
+2020-09-02 10:41:06,792 root INFO userconter_maner:71 /yx/course/courseCollection/collection我爱你
+2020-09-02 10:41:06,799 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:41:06,905 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:41:06,908 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDY0NjYsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.X4UjDSgHWkrsHKhPDuzKKdKSN177nnJquDQqP6NFQyI', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:41:06,908 root INFO baseapis_ke:47 uuuuuurlhttps://yuyouyou.bjjh.org.cn/yx/course/courseCollection/collection
+2020-09-02 10:41:06,909 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:41:07,063 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:41:07,066 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDY0NjcsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.YP1RHxdf4Wk-5MAO0JvDFsMLn148nM2U-OdQvnMX__4', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:41:07,066 root INFO baseapis_ke:48 token666eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDY0NjcsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.YP1RHxdf4Wk-5MAO0JvDFsMLn148nM2U-OdQvnMX__4
+2020-09-02 10:41:07,068 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:41:07,113 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 48
+2020-09-02 10:41:07,116 root INFO baseapis_ke:50 返回值{'msg': '账户在其他地方登陆', 'code': 302}
+2020-09-02 10:41:07,116 root DEBUG baseapis_ke:58 最后返回字符串{'msg': '账户在其他地方登陆', 'code': 302}
+2020-09-02 10:41:07,116 root INFO test_read2:20 {'msg': '账户在其他地方登陆', 'code': 302}
+2020-09-02 10:41:07,189 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 10:49:30,381 root INFO runner:24 Start to execute  automation cases
+2020-09-02 10:49:30,879 root INFO baseapis_ke:14 init base api interface
+2020-09-02 10:49:30,879 root INFO userconter_maner:21 init member api
+2020-09-02 10:49:30,879 root INFO userconter_maner:71 /yx/course/courseCollection/collection我爱你
+2020-09-02 10:49:30,887 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:49:31,129 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 10:49:31,132 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210192, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MDY5NzEsInVzZXJJZCI6IjEwMTAyMTAxOTIifQ.tJU2EmGcs_oYrwc8iG4VdQ12yHRWkUUS2ZdFWGw2MyU', 'imgUrl': 'http://yunx-prod.oss-cn-beijing.aliyuncs.com/defult1593657815078.png', 'realName': '张晓哲', 'userStuGradeId': '134', 'phase': '2', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 10:49:31,132 root INFO baseapis_ke:47 uuuuuurlhttps://yuyouyou.bjjh.org.cn/yx/course/courseCollection/collection
+2020-09-02 10:49:31,134 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 10:49:31,249 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 10:49:31,252 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:49:31,252 root DEBUG baseapis_ke:57 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:49:31,252 root INFO test_read2:20 {'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 10:49:31,327 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 11:36:54,164 root INFO runner:24 Start to execute  automation cases
+2020-09-02 11:36:54,668 root INFO baseapis_ke:14 init base api interface
+2020-09-02 11:36:54,669 root INFO userconter_maner:21 init member api
+2020-09-02 11:36:54,669 root INFO userconter_maner:71 /yx/course/courseCollection/collection我爱你
+2020-09-02 11:36:54,687 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:36:54,727 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /yx/user/sso/login HTTP/1.1" 405 157
+2020-09-02 11:36:54,840 root INFO baseapis_ke:14 init base api interface
+2020-09-02 11:36:54,841 root INFO userconter_maner:21 init member api
+2020-09-02 11:36:54,841 root INFO userconter_maner:71 /yx/course/courseCollection/collection我爱你
+2020-09-02 11:36:54,842 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:36:54,880 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /yx/user/sso/login HTTP/1.1" 405 157
+2020-09-02 11:36:54,923 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 11:40:16,087 root INFO runner:24 Start to execute  automation cases
+2020-09-02 11:40:16,635 root INFO baseapis_ke:14 init base api interface
+2020-09-02 11:40:16,635 root INFO userconter_maner:21 init member api
+2020-09-02 11:40:16,635 root INFO userconter_maner:71 /course/courseCollection/collection我爱你
+2020-09-02 11:40:16,652 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:40:16,944 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 11:40:16,947 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MTAwMTYsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.TA-GErhXenNGGlTGeSvsq4kuGRiiW6vJDm4CUx_ZlrY', 'imgUrl': 'http://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/QQ20200323-101937@2x1584942552047.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 11:40:16,948 root INFO baseapis_ke:47 uuuuuurlhttps://yuyouyou.bjjh.org.cn/course/courseCollection/collection
+2020-09-02 11:40:16,949 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 11:40:16,982 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/collection HTTP/1.1" 405 150
+2020-09-02 11:40:17,103 root INFO baseapis_ke:14 init base api interface
+2020-09-02 11:40:17,103 root INFO userconter_maner:21 init member api
+2020-09-02 11:40:17,103 root INFO userconter_maner:71 /course/courseCollection/collection我爱你
+2020-09-02 11:40:17,104 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:40:17,283 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 11:40:17,286 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MTAwMTcsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.XXR4EDUEt7tpB_MmNOKUzek-LjOaSRWeVdHDy2_KXJo', 'imgUrl': 'http://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/QQ20200323-101937@2x1584942552047.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 11:40:17,287 root INFO baseapis_ke:47 uuuuuurlhttps://yuyouyou.bjjh.org.cn/course/courseCollection/collection
+2020-09-02 11:40:17,290 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): yuyouyou.bjjh.org.cn:443
+2020-09-02 11:40:17,318 urllib3.connectionpool DEBUG connectionpool:442 https://yuyouyou.bjjh.org.cn:443 "POST /course/courseCollection/collection HTTP/1.1" 405 150
+2020-09-02 11:40:17,355 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 11:42:46,373 root INFO runner:24 Start to execute  automation cases
+2020-09-02 11:42:46,839 root INFO baseapis_ke:14 init base api interface
+2020-09-02 11:42:46,839 root INFO userconter_maner:21 init member api
+2020-09-02 11:42:46,839 root INFO userconter_maner:71 /course/courseCollection/collection我爱你
+2020-09-02 11:42:46,848 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:42:47,021 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 11:42:47,024 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MTAxNjYsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.1iNWEVvcgHa2VZPPGTO98K8Y16B_vUM636l6Jj2BrjE', 'imgUrl': 'https://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/img/s/iShot2020-07-0111.04.571599018079963.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 11:42:47,024 root INFO baseapis_ke:47 uuuuuurlhttps://zxkc.bjxjzd.com/api/yx/course/courseCollection/collection
+2020-09-02 11:42:47,026 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:42:47,148 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 11:42:47,151 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 11:42:47,151 root DEBUG baseapis_ke:57 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 11:42:47,151 root INFO test_read2:20 {'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 11:42:47,225 root INFO baseapis_ke:14 init base api interface
+2020-09-02 11:42:47,225 root INFO userconter_maner:21 init member api
+2020-09-02 11:42:47,225 root INFO userconter_maner:71 /course/courseCollection/collection我爱你
+2020-09-02 11:42:47,227 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:42:47,357 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 11:42:47,360 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MTAxNjcsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.qB5jCa3-VgC27PcqlXAKMIuPx-C9PLM2a8fMxk_ht00', 'imgUrl': 'https://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/img/s/iShot2020-07-0111.04.571599018079963.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 11:42:47,360 root INFO baseapis_ke:47 uuuuuurlhttps://zxkc.bjxjzd.com/api/yx/course/courseCollection/collection
+2020-09-02 11:42:47,362 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 11:42:47,520 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 11:42:47,523 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 11:42:47,529 root INFO runner:44 End to execute Intfacetiaon automaction cases
