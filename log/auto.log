@@ -370,3 +370,90 @@
 2020-09-02 17:32:03,534 root INFO comparator:14 live_json:{'msg': '请求成功', 'code': 200, 'data': None}
 2020-09-02 17:32:03,535 root INFO comparator:15 std_json:{'msg': '请求成功2', 'code': 200, 'data': None}
 2020-09-02 17:32:03,604 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 18:04:39,396 root INFO runner:24 Start to execute  automation cases
+2020-09-02 18:04:39,950 root INFO test_read2:31 classname=====Testdemo
+2020-09-02 18:04:39,950 root INFO test_read2:35 casename==testcase3
+2020-09-02 18:04:39,950 root INFO baseapis_ke:14 init base api interface
+2020-09-02 18:04:39,950 root INFO userconter_maner:21 init member api
+2020-09-02 18:04:39,951 root DEBUG userconter_maner:123 json_object{'courseId': 38, 'isCollection': 1}
+2020-09-02 18:04:39,951 root INFO userconter_maner:140 /course/courseCollection/collection我爱你
+2020-09-02 18:04:39,961 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:04:40,124 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 18:04:40,129 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MzMwODAsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.a-wKfHdkE2ehnBU8JkLWCmWZZoR_czvTJqJuV51-db8', 'imgUrl': 'https://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/img/s/iShot2020-07-0111.04.571599018079963.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 18:04:40,130 root INFO baseapis_ke:47 uuuuuurlhttps://zxkc.bjxjzd.com/api/yx/course/courseCollection/collection
+2020-09-02 18:04:40,132 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:04:40,262 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 18:04:40,266 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:04:40,267 root DEBUG baseapis_ke:57 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:04:40,267 root DEBUG userconter_maner:123 json_object{'msg': '请求成功2', 'code': 200, 'data': None, 'ddd': None}
+2020-09-02 18:04:40,346 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 18:05:01,269 root INFO runner:24 Start to execute  automation cases
+2020-09-02 18:05:01,569 root INFO test_read2:31 classname=====Testdemo
+2020-09-02 18:05:01,570 root INFO test_read2:35 casename==testcase3
+2020-09-02 18:05:01,570 root INFO baseapis_ke:14 init base api interface
+2020-09-02 18:05:01,570 root INFO userconter_maner:21 init member api
+2020-09-02 18:05:01,570 root DEBUG userconter_maner:123 json_object{'courseId': 38, 'isCollection': 1}
+2020-09-02 18:05:01,570 root INFO userconter_maner:140 /course/courseCollection/collection我爱你
+2020-09-02 18:05:01,577 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:05:01,721 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 18:05:01,726 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MzMxMDEsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.KiAK0I0lS0ythmQcVVToBMv0Rof3Cp5hAGMeWuC8URs', 'imgUrl': 'https://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/img/s/iShot2020-07-0111.04.571599018079963.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 18:05:01,726 root INFO baseapis_ke:47 uuuuuurlhttps://zxkc.bjxjzd.com/api/yx/course/courseCollection/collection
+2020-09-02 18:05:01,729 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:05:01,842 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 18:05:01,847 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:05:01,847 root DEBUG baseapis_ke:57 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:05:01,847 root DEBUG userconter_maner:123 json_object{'msg': '请求成功', 'code': 200, 'data': None, 'ddd': None}
+2020-09-02 18:05:01,934 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 18:05:40,807 root INFO runner:24 Start to execute  automation cases
+2020-09-02 18:05:41,295 root INFO test_read2:31 classname=====Testdemo
+2020-09-02 18:05:41,295 root INFO test_read2:35 casename==testcase3
+2020-09-02 18:05:41,295 root INFO baseapis_ke:14 init base api interface
+2020-09-02 18:05:41,295 root INFO userconter_maner:21 init member api
+2020-09-02 18:05:41,296 root DEBUG userconter_maner:123 json_object{'courseId': 38, 'isCollection': 1}
+2020-09-02 18:05:41,296 root INFO userconter_maner:140 /course/courseCollection/collection我爱你
+2020-09-02 18:05:41,305 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:05:41,459 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 18:05:41,466 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MzMxNDEsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.5WPCKS58QbofuxfgKEQck2X83KIkYlV4z-SF_ba3emU', 'imgUrl': 'https://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/img/s/iShot2020-07-0111.04.571599018079963.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 18:05:41,466 root INFO baseapis_ke:47 uuuuuurlhttps://zxkc.bjxjzd.com/api/yx/course/courseCollection/collection
+2020-09-02 18:05:41,469 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:05:41,603 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 18:05:41,608 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:05:41,608 root DEBUG baseapis_ke:57 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:05:41,609 root DEBUG userconter_maner:123 json_object{'msg': '请求成功', 'code': 200, 'data': None, 'ddd': 'dddd'}
+2020-09-02 18:05:41,687 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 18:07:05,104 root INFO runner:24 Start to execute  automation cases
+2020-09-02 18:07:05,683 root INFO test_read2:31 classname=====Testdemo
+2020-09-02 18:07:05,683 root INFO test_read2:35 casename==testcase3
+2020-09-02 18:07:05,683 root INFO baseapis_ke:14 init base api interface
+2020-09-02 18:07:05,684 root INFO userconter_maner:21 init member api
+2020-09-02 18:07:05,684 root DEBUG userconter_maner:123 json_object{'courseId': 38, 'isCollection': 1}
+2020-09-02 18:07:05,685 root INFO userconter_maner:140 /course/courseCollection/collection我爱你
+2020-09-02 18:07:05,694 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:07:05,842 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 18:07:05,847 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MzMyMjUsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ.k5QnsHVrVW12ElAuUI5VB3RpdUDaPq1zqjfeFYrtGyo', 'imgUrl': 'https://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/img/s/iShot2020-07-0111.04.571599018079963.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 18:07:05,847 root INFO baseapis_ke:47 uuuuuurlhttps://zxkc.bjxjzd.com/api/yx/course/courseCollection/collection
+2020-09-02 18:07:05,850 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:07:05,955 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 18:07:05,961 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:07:05,961 root DEBUG baseapis_ke:57 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:07:05,961 root DEBUG userconter_maner:123 json_object{'msg': '请求成功', 'code': 200, 'data': None, 'ddd': 'dddd'}
+2020-09-02 18:07:06,038 root INFO runner:44 End to execute Intfacetiaon automaction cases
+2020-09-02 18:09:51,517 root INFO runner:24 Start to execute  automation cases
+2020-09-02 18:09:52,079 root INFO test_read2:31 classname=====Testdemo
+2020-09-02 18:09:52,080 root INFO test_read2:35 casename==testcase3
+2020-09-02 18:09:52,080 root INFO baseapis_ke:14 init base api interface
+2020-09-02 18:09:52,080 root INFO userconter_maner:21 init member api
+2020-09-02 18:09:52,080 root DEBUG userconter_maner:123 json_object{'courseId': 38, 'isCollection': 1}
+2020-09-02 18:09:52,080 root INFO userconter_maner:140 /course/courseCollection/collection我爱你
+2020-09-02 18:09:52,087 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:09:52,239 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/user/sso/login HTTP/1.1" 200 None
+2020-09-02 18:09:52,245 root INFO baseapis_ke:30 BBBBBBBBBBB{'msg': '请求成功', 'code': 200, 'data': {'userId': 1010210051, 'username': 'zxz002', 'mobile': None, 'token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJCSnhpbmdqaW5nemhpZGEiLCJleHAiOjE2MDE2MzMzOTIsInVzZXJJZCI6IjEwMTAyMTAwNTEifQ._SLGgq-38Yx9Q9YnyxdAeisD4q6sDhcPgqfM6tKKJ3I', 'imgUrl': 'https://yunxiao-test.oss-cn-hangzhou.aliyuncs.com/img/s/iShot2020-07-0111.04.571599018079963.png', 'realName': '小鱼z002', 'userStuGradeId': '147', 'phase': '1', 'teacherRole': None, 'teacherPart': None}}
+2020-09-02 18:09:52,245 root INFO baseapis_ke:47 uuuuuurlhttps://zxkc.bjxjzd.com/api/yx/course/courseCollection/collection
+2020-09-02 18:09:52,247 urllib3.connectionpool DEBUG connectionpool:943 Starting new HTTPS connection (1): zxkc.bjxjzd.com:443
+2020-09-02 18:09:52,418 urllib3.connectionpool DEBUG connectionpool:442 https://zxkc.bjxjzd.com:443 "POST /api/yx/course/courseCollection/collection HTTP/1.1" 200 None
+2020-09-02 18:09:52,421 root INFO baseapis_ke:49 返回值{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:09:52,422 root DEBUG baseapis_ke:57 最后返回字符串{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:09:52,422 root DEBUG userconter_maner:123 json_object{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:09:52,422 root INFO comparator:14 live_json:{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:09:52,422 root INFO comparator:15 std_json:{'msg': '请求成功', 'code': 200, 'data': None}
+2020-09-02 18:09:52,427 root INFO runner:44 End to execute Intfacetiaon automaction cases

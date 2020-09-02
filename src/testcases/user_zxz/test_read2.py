@@ -30,25 +30,29 @@ class Testdemo:
         class_name = self.__class__.__name__
         logging.info("classname====="+class_name)
 
-        # 获取用例名  json数据中的参数必须设置为testcase1 与这里的方法名保持一致，才好获取
+        # 获取方法名、用例名  json数据中的参数必须设置为testcase1 与这里的方法名保持一致，才好获取
         case_name = sys._getframe ().f_code.co_name.split ( "_" )[1]
         logging.info('casename=='+case_name)
 
-        member_managment = Zxz_User_Maner ()
-        json_obj = member_managment.get_json_obj_from_file_with_reqres ( '../testdata/' + class_name + '.json',
+        user_managment = Zxz_User_Maner ()
+        # 传递的参数为/testdata路径+类名.json，jsonobject名，jsonobject里的req类型object
+        json_obj = user_managment.get_json_obj_from_file_with_reqres ( '../testdata/' + class_name + '.json',
                                                                          case_name, "req" )
 
-
-        member_managment.create_member_by_json_obj2 ( json_obj )
-
-        live_create_res = member_managment.get_response ()
-        std_json_obj_res = member_managment.get_json_obj_from_file_with_reqres ( '../testdata/' + class_name + '.json',
+        # 使用post请求参数为json串
+        user_managment.uerpost_by_json_obj2 ( json_obj )
+        # 获取请求后的返回值response
+        live_create_res = user_managment.get_response ()
+        # 传递的参数为/testdata路径+类名.json，jsonobject名，jsonobject里的res类型object
+        std_json_obj_res = user_managment.get_json_obj_from_file_with_reqres ( '../testdata/' + class_name + '.json',
                                                                                  case_name,
                                                                                  "res" )
+        # 获取JsonComparator对象
         json_comparator = comparator.JsonComparator ()
 
         # 断言两个json中的res中的值是否相等
         assert json_comparator.equal ( live_create_res, std_json_obj_res )
+        # assert json_comparator.less_than(live_create_res, std_json_obj_res )
 
 
 

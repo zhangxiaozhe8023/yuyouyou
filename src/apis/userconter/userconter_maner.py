@@ -131,7 +131,7 @@ class Zxz_User_Maner(BaseAPI_KE):
         self.post_json(self.creat_member_url,json_object,params=param)
 
  # 创建成员 发送-- reaques的post请求
-    def create_member_by_json_obj2(self,json_object):
+    def uerpost_by_json_obj2(self,json_object):
         # param = {'access_token':self.get_token(self.secure)}
         # logging.debug("params:" + str(param))
         # self.post_json(self.creat_member_url,json_object,params=param)

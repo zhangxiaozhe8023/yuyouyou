@@ -24,7 +24,7 @@ class JsonComparator:
         :param std_json:
         :return:
         '''
-        pass
+        return live_json<=std_json
 
     def more_than(self,live_json,std_json):
         '''
