@@ -8,7 +8,7 @@ import sys
 import allure
 
 from src.apis.userconter.userconter_maner import Zxz_User_Maner
-from src.utils import toolskit
+from src.utils import toolskit, comparator
 
 
 @allure.feature("创建用户")
@@ -57,7 +57,7 @@ class TestCreateMember123:
 
         case_name = sys._getframe().f_code.co_name.split("_")[1]
 
-        member_managment = MemberManagermentApi()
+        member_managment = Zxz_User_Maner()
         json_obj=member_managment.get_json_obj_from_file_with_reqres('../testdata/'+ class_name +'.json',case_name,"req")
 
         new_userid = toolskit.append_time_stamp_string(json_obj.get("userid"))

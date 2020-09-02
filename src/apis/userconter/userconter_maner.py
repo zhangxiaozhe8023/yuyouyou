@@ -123,10 +123,19 @@ class Zxz_User_Maner(BaseAPI_KE):
                 logging.debug ( 'json_object' + str ( case_json_object ) )
                 return case_json_object
 
+
  # 创建成员 发送-- reaques的post请求
     def create_member_by_json_obj(self,json_object):
         param = {'access_token':self.get_token(self.secure)}
         logging.debug("params:" + str(param))
         self.post_json(self.creat_member_url,json_object,params=param)
 
-
+ # 创建成员 发送-- reaques的post请求
+    def create_member_by_json_obj2(self,json_object):
+        # param = {'access_token':self.get_token(self.secure)}
+        # logging.debug("params:" + str(param))
+        # self.post_json(self.creat_member_url,json_object,params=param)
+        dd = {"courseId": "38", "isCollection": 1}
+        print(self.shoucang_url+"999999999")
+        logging.info(self.shoucang_url+"我爱你")
+        self.post_json2(json_object,self.shoucang_url)
