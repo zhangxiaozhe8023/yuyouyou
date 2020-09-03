@@ -28,7 +28,8 @@ if __name__ == '__main__':
     # 执行创建部门测试用例
     # pytest.main(['-sq', 'testcases/contact/department/test_create_dept.py'])
     # 执行创建人员测试用例
-    pytest.main ( ['-sq', 'testcases/user_zxz/test_read2.py'] )
+    # pytest.main ( ['-sq', 'testcases/user_zxz/test_read2.py'] )
+    pytest.main ( ['-sq', 'testcases/user_zxz/test_read_zxz.py'] )
     # 张晓哲自己写的创建人员测试用例
     # pytest.main(['-sq', 'testcases/contact/member/test_get_member_list.py'])
     # pytest.main(['-sq', 'testcases/contact/member/test_read_member_zxz.py'])

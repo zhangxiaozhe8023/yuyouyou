@@ -59,8 +59,8 @@ class Zxz_User_Maner(BaseAPI_KE):
             'Authorization': self.get_token(),
             'Content-Type': 'application/json'
         }
-        dd= {"courseId":"38","isCollection":1}
-        resee=requests.post("https://yuyouyou.bjjh.org.cn/yx/course/courseCollection/collection",json=dd,headers=headers).json()
+        dd= {"star":5,"content":"张晓哲222","courseId":"89","id":5}
+        resee=requests.post("https://zxkc.bjxjzd.com/api/yx/course/courseEvaluate/update",json=dd,headers=headers).json()
         print(resee)
         return resee
 
@@ -136,6 +136,5 @@ class Zxz_User_Maner(BaseAPI_KE):
         # logging.debug("params:" + str(param))
         # self.post_json(self.creat_member_url,json_object,params=param)
         dd = {"courseId": "38", "isCollection": 1}
-        print(self.shoucang_url+"999999999")
         logging.info(self.shoucang_url+"我爱你")
         self.post_json2(json_object,self.shoucang_url)
