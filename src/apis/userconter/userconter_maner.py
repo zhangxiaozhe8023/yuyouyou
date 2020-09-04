@@ -8,11 +8,11 @@ import json
 import requests
 import logging
 
-# 被继承的类作为参数传过去
+
 from src.apis.baseapis_ke import BaseAPI_KE
 from src.initialization.sysconfig import sys_cfg
 
-
+# 被继承的类作为参数传过去
 class Zxz_User_Maner(BaseAPI_KE):
     # 初始化当前类
     def __init__(self):
@@ -35,6 +35,7 @@ class Zxz_User_Maner(BaseAPI_KE):
             param ={'access_token':self.get_token(self.secure)}
             # 调用requests的封装方法
             self.post_json(self.creat_member_url,json_object,param)
+
             # logging.info('返回结果：',str(self.post_json(self.creat_member_ur,json_object,param)))
     #读取人员id---方法1
     def reaod_member(self):
@@ -66,13 +67,8 @@ class Zxz_User_Maner(BaseAPI_KE):
 
         # 收藏功能2
     def rept_user2(self):
-            dd = {"courseId": "38", "isCollection": 1}
-            print(self.shoucang_url+"999999999")
-            logging.info(self.shoucang_url+"我爱你")
-            self.post_json2(dd,self.shoucang_url)
-
-
-
+            ddjson = {"courseId": "38", "isCollection": 1}
+            self.post_json2(self.shoucang_url,ddjson)
     #读取多个文件 创建用户，对应member1和member2
     def creat_memner_more(self, file_name):
         new_member = self.get_new_member( file_name )
@@ -132,9 +128,4 @@ class Zxz_User_Maner(BaseAPI_KE):
 
  # 创建成员 发送-- reaques的post请求
     def uerpost_by_json_obj2(self,json_object):
-        # param = {'access_token':self.get_token(self.secure)}
-        # logging.debug("params:" + str(param))
-        # self.post_json(self.creat_member_url,json_object,params=param)
-        dd = {"courseId": "38", "isCollection": 1}
-        logging.info(self.shoucang_url+"我爱你")
-        self.post_json2(json_object,self.shoucang_url)
+        self.post_json2(self.shoucang_url,json_object)
