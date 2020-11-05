@@ -7,7 +7,6 @@ import random
 import pytest
 # 生成随机中文字符
 
-
 def get_random_char(number):
     val_list =[]
     for nu in range(0,number):

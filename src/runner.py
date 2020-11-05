@@ -28,7 +28,7 @@ if __name__ == '__main__':
     # 执行创建部门测试用例
     # pytest.main(['-sq', 'testcases/contact/department/test_create_dept.py'])
     # 执行创建人员测试用例
-    pytest.main ( ['-sq', 'testcases/user_zxz/test_read2.py'] )
+    pytest.main ( ['-sq', 'testcases/user_zxz/test_read_zxz.py'] )
     # pytest.main ( ['-sq', 'testcases/user_zxz/test_read_zxz.py'] )
 
     #pytest.main(['-sq','--alluredir', '../log/testreport', 'testcases/contact/member/test_creat_main.py'])

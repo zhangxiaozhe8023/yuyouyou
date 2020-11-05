@@ -17,9 +17,9 @@ def read_config(cfg_file):
     return cfg
 
 # 读取cfg文件,并获取对象
-sys_cfg = read_config('/Users/apple/PycharmProjects/yuyouyou/cfg/auto.cfg')
-# if __name__ == '__main__':
-#     print ( cong_obj.get('urlhost','urlOrigin'))
+sys_cfg = read_config("/Users/apple/PycharmProjects/yuyouyou/cfg/auto.cfg")
+if __name__ == '__main__':
+    print(sys_cfg.get('urlhost','urlOriginTest'))
 
 
 

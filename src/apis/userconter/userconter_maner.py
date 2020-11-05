@@ -19,12 +19,10 @@ class Zxz_User_Maner(BaseAPI_KE):
         # 初始化被调用类，并且self作为参数传入
         BaseAPI_KE.__init__(self)
         logging.info('init member api')
-        #
+        #收藏
         self.shoucang_url= sys_cfg.get ( "apiurl", "shoucang" )
-
-        # # 获取读取人员的URL
-        # self.read_member_url=sys_cfg.get('contact_para','get_member_url')
-        # self.paramall = {'access_token': self.get_token ( self.secure )}
+        #
+        self.GradeSubject_url= sys_cfg.get ( "apiurl", "GradeSubject" )
     #创建新建人员
     def creat_member(self,filename):
         # 读取测试文件（json）并设置编码为utf-8
@@ -68,7 +66,11 @@ class Zxz_User_Maner(BaseAPI_KE):
         # 收藏功能2
     def rept_user2(self):
             ddjson = {"courseId": "38", "isCollection": 1}
-            self.post_json2(self.shoucang_url,ddjson)
+            self.post_from_json(self.shoucang_url,ddjson)
+      # 封装json请求
+    def postjson3(self,ddjson):
+
+            self.post_json2(self.GradeSubject_url,ddjson)
     #读取多个文件 创建用户，对应member1和member2
     def creat_memner_more(self, file_name):
         new_member = self.get_new_member( file_name )
@@ -118,8 +120,6 @@ class Zxz_User_Maner(BaseAPI_KE):
                 case_json_object = multiple_json_object.get ( testcase_name ).get ( type )
                 logging.debug ( 'json_object' + str ( case_json_object ) )
                 return case_json_object
-
-
  # 创建成员 发送-- reaques的post请求
     def create_member_by_json_obj(self,json_object):
         param = {'access_token':self.get_token(self.secure)}

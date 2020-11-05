@@ -47,8 +47,17 @@ class Testdemo:
                                                                                  "res" )
         # 获取JsonComparator对象
         json_comparator = comparator.JsonComparator ()
-
         # 断言两个json中的res中的值是否相等
         assert json_comparator.equal ( live_create_res, std_json_obj_res )
         # assert json_comparator.less_than(live_create_res, std_json_obj_res )
 
+ #首页-年级科目导航1.1有更改
+    def testGradeSubject (self):
+        # 调用别的类时候，别的类有带括号（）有实例，也要都带过去
+        User_maner = Zxz_User_Maner()
+        # assert  User_maner.rept_user2().get("msg") =='请求成功'
+        ddjson = {"phase": "1"}
+        User_maner.postjson3(ddjson)
+        res =User_maner.get_response()
+        logging.info(res)
+        assert res.get('msg') == '请求成功'

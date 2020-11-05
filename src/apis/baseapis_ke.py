@@ -45,9 +45,17 @@ class BaseAPI_KE():
     # 封装get请求方法
     def get_json(self,url,parms):
         self.res_get=requests.get(url,parms)
+    def post_from_json(self,formurl,formjson):
+        headers1 = {
+            'Authorization': self.get_token (),
+            'Content-Type': 'application/x-www-form-urlencoded'
+        }
+        self.res=requests.post(formurl,json=formjson,headers=headers1)
+
     # 封装请求response的json返回结果
     def get_response(self):
         logging.debug('最后返回字符串'+str(self.res.json()))
+        print ( "最后的返回字符串" + str (self.res.json() ) )
         return self.res.json()
     def get_cookie(Coookie_url, Cookie_data):
         # Coookie_url = "http://*********v*********l.com/user/business-user/account-login"
@@ -59,10 +67,5 @@ class BaseAPI_KE():
         cookie = r.cookies.get_dict ()
 
         return "****=%s" % cookie["****"]
-
-    if __name__ == '__main__':
-        pames={"username": "zxz002", "password": "123456"}
-        relogin=requests.post("https://yuyouyou.bjjh.org.cn/yx/user/sso/login",json=pames)
-        print(relogin.json())
 
 
